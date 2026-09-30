@@ -3,7 +3,7 @@
 // `id` is the Unsplash image id (used for the CDN url), `slug` is the photo page path.
 
 export const PROFILE_URL = 'https://unsplash.com/@karamdeepsingh_2000'
-export const CONTACT_EMAIL = 'hello@karamdeepsingh.com' // TODO: replace with Karamdeep's real email
+export const CONTACT_EMAIL = 'karmdeep236@gmail.com'
 export const INSTAGRAM_URL = '' // TODO: add Instagram link if available
 
 const raw = [
