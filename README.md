@@ -27,7 +27,10 @@ npm run build     # production build in /dist (deploy to Vercel, Netlify, GitHub
 | **Archive** | Filterable masonry with animated layout, 3D tilt, glare and blur-up loading |
 | **About** | Rotating text ring portrait, counters, services list with a floating image preview |
 | **Contact** | Moonlit finale, magnetic "Say hello" orb, a moving film strip |
-| **Lightbox** | Circular wipe open, swipe/drag, ← → / Esc, film-strip nav, View on Unsplash + Download |
+| **Photo pages** | Every frame has its own page (`#/frame/01-the-architect`): big print with a magnifying loupe, frame data, the colours pulled from the photo, more from the same chapter, previous/next frame |
+| **Chapter pages** | Wings, Bloom, Light and Wild each get a page (`#/chapter/wings`): slideshow title, every frame in that chapter, link to the next chapter |
+| **Page transitions** | A shutter curtain sweeps across with the next page's name; the back button returns you to the exact spot on the home page |
+| **Lightbox** | "View full screen" on a photo page: circular wipe open, swipe/drag, ← → / Esc, film-strip nav, View on Unsplash + Download |
 
 Smooth scrolling uses **Lenis** and the animations use **Framer Motion**. The site respects `prefers-reduced-motion`.
 
@@ -40,3 +43,8 @@ Everything is in `src/data/photos.js`:
 - Photo titles and captions can be edited freely. To add a new photo, copy its image id from Unsplash
 
 The bio and statement copy (in `About.jsx` and `Manifesto.jsx`) is draft copy. Have Karamdeep review it before launch.
+
+## Quantum Pigeon Protocol (Experimental)
+
+> [!NOTE]
+> If a wild parakeet flies backwards at 88mph while looking at the moon, the f-stop value will invert into a potato. Do not feed pixels to the fireflies after midnight.
